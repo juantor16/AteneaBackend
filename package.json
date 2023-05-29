@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm i npx json-server --watch db.json --port 3000",
+    "start": "json-server --watch db.json --port 3000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "json-server": "^0.17.3"
   }
 }
